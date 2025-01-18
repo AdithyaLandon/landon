@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== WEBSITE ICON ===============-->
+        <link rel="shortcut icon" href="assets/img/websiteicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title> Landon Portfolio </title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="" class="nav__logo">Landon</a>
+
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home-alt'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class='bx bx-user' ></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-book-alt'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#work" class="nav__link">
+                                <i class='bx bx-briefcase' ></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class='bx bx-message-square-detail'></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Theme change button-->
+                <i class='bx bx-moon change-theme' id="theme-button" ></i>
+            </nav>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <!--=============== HOME ===============-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__greeting">Halo, Saya</span>
+                        <h1 class="home__name">Adithya Landon</h1>
+                        <h3 class="home__education">Video & Photo Editor</h3>
+
+                        <div class="home__buttons">
+                            <a download="" href="assets/pdf/Landon-Cv.pdf" class="button button--ghost">
+                                Download CV
+                            </a>
+                            <a href="#about" class="button">Tentang Saya</a>
+                        </div>
+                    </div>
+
+                    <div class="home__handle">
+                        <img src="" alt="" class="home__img">
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.instagram.com/merify/" target="_blank" class="home__social-link">
+                            <i class='bx bxl-instagram' ></i>
+                        </a>
+                        <a href="#" target="_blank" class="home__social-link">
+                            <i class='bx bxl-youtube' ></i>
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=6282154064174&text=Halo, saya ingin mengorder jasa" target="_blank" class="home__social-link">
+                            <i class='bx bxl-whatsapp' ></i>
+                        </a>
+                    </div>
+
+                    <a href="#about" class="home__scroll">
+                        <i class='bx bx-mouse home__scroll-icon'></i>
+                        <span class="home__scroll-name">Scroll Down</span>                        
+                    </a>
+                </div>
+            </section>
+            
+            <!--=============== ABOUT ===============-->
+            <section class="about section" id="about">
+                <span class="section__subtitle">Perkenalan</span>
+                <h2 class="section__title">Tentang Saya</h2>
+
+                <div class="about__container container grid">
+                    <img src="" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <div class="about__info">
+                            <div class="about__box">
+                                <i class='bx bx-award about__icon'></i>
+                                <h3 class="about__title">Pengalaman</h3>
+                                <span class="about__subtitle">3 Tahun Bekerja</span>
+                            </div>
+
+                            <div class="about__box">
+                                <i class='bx bx-briefcase about__icon'></i>
+                                <h3 class="about__title">Menyelesaikan</h3>
+                                <span class="about__subtitle">17+ Project</span>
+                            </div>
+
+                            <div class="about__box">
+                                <i class='bx bx-support about__icon'></i>
+                                <h3 class="about__title">Bantuan</h3>
+                                <span class="about__subtitle">Online 24/7</span>
+                            </div>
+                        </div>
+
+                        <p class="about__description">
+                            Saya adalah seorang video dan foto editor muda dengan pengalaman bertahun-tahun, 
+                            menghadirkan hasil kreatif. Telah melayani banyak klien dengan dedikasi, 
+                            saya berkomitmen memberikan kepuasan melalui hasil editing yang berkualitas tinggi.
+                        </p>
+
+                        <a href="https://api.whatsapp.com/send?phone=6282154064174&text=Halo, saya ingin mengorder jasa" class="button">Hubungi saya</a>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== SKILLS ===============-->
+            <section class="skills section" id="skills">
+                <span class="section__subtitle">Kemampuan Saya</span>
+                <h2 class="section__title">Pengalaman Saya</h2>
+
+                <div class="skills__container container grid">
+                    <div class="skills__content">
+                        <h3 class="skills__title">Video Editor</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx bx-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills__name">After Effects</h3>
+                                        <span class="skills__level">Expert</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bx-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Blender</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <i class='bx bx-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Premiere Pro</h3>
+                                        <span class="skills__level">Advanced</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            </div>
+                    </div>
+
+                    <div class="skills__content">
+                        <h3 class="skills__title">Foto Editor</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx bx-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Photoshop</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bx-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Illustrator</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <i class='bx bx-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Canva</h3>
+                                        <span class="skills__level">Expert</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== SERVICES ===============-->
+            <section class="services section">
+                <span class="section__subtitle">Layanan Saya</span>
+                <h2 class="section__title">Apa yang saya tawarkan</h2>
+
+                <div class="services__container container grid">
+                    <div class="services__card">
+                        <h3 class="services__title">Video <br> Editing</h3>
+
+                        <span class="services__button">
+                            Selengkapnya <i class='bx bx-right-arrow-alt' ></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <i class='bx bxs-x-circle services__modal-close' ></i>
+
+                                <h3 class="services__modal-title">Video Editing</h3>
+                                <p class="services__modal-description">
+                                    Saya menyediakan layanan video editing untuk berbagai kebutuhan, mulai dari tugas sekolah, 
+                                    film pendek, hingga konten kreatif dan promosi layanan kesehatan. Dengan perhatian pada kualitas 
+                                    dan detail, saya siap membantu mewujudkan video yang sesuai dengan tujuan Anda dengan hasil yang memuaskan.
+                                </p>
+
+                                <ul class="services_modal-list">
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon' ></i>
+                                        <p class="services__modal-info">
+                                            Bisa revisi hingga puas
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon' ></i>
+                                        <p class="services__modal-info">
+                                            Resolusi bisa diatur
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon' ></i>
+                                        <p class="services__modal-info">
+                                            Harga relatif terjangkau
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon' ></i>
+                                        <p class="services__modal-info">
+                                            Konsep bebas, disarankan ada contoh
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon' ></i>
+                                        <p class="services__modal-info">
+                                            Mengkreasikan visual efek pada video
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services__card">
+                        <h3 class="services__title">Photo <br> Editing</h3>
+
+                        <span class="services__button">
+                            Selengkapnya <i class='bx bx-right-arrow-alt' ></i>
+                        </span>
+                        
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <i class='bx bxs-x-circle services__modal-close' ></i>
+
+                                <h3 class="services__modal-title">Photo Editing</h3>
+                                <p class="services__modal-description">
+                                    Saya menawarkan layanan foto editing profesional untuk berbagai 
+                                    kebutuhan, dengan pengalaman saya selama 3 tahun lebih dalam mengedit 
+                                    foto untuk keperluan pribadi, bisnis, dan konten kreatif.
+                                </p>
+
+                                <ul class="services_modal-list">
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon' ></i>
+                                        <p class="services__modal-info">
+                                            Bisa revisi hingga puas
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon' ></i>
+                                        <p class="services__modal-info">
+                                            Resolusi bisa diatur
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon' ></i>
+                                        <p class="services__modal-info">
+                                            Harga relatif terjangkau
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon' ></i>
+                                        <p class="services__modal-info">
+                                            Konsep bebas, disarankan ada contoh
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon' ></i>
+                                        <p class="services__modal-info">
+                                            Mengkreasikan visual efek pada foto
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services__card">
+                        <h3 class="services__title">Desain <br> Visual</h3>
+
+                        <span class="services__button">
+                            Selengkapnya <i class='bx bx-right-arrow-alt' ></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <i class='bx bxs-x-circle services__modal-close' ></i>
+
+                                <h3 class="services__modal-title">Desain Visual</h3>
+                                <p class="services__modal-description">
+                                    Saya menawarkan layanan desain visual profesional untuk logo dan kebutuhan 
+                                    desain lainnya, dengan pengalaman saya selama 3 tahun lebih dalam menciptakan 
+                                    identitas visual yang kuat dan menarik untuk berbagai keperluan bisnis.
+                                </p>
+
+                                <ul class="services_modal-list">
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon' ></i>
+                                        <p class="services__modal-info">
+                                            Bisa revisi hingga puas
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon' ></i>
+                                        <p class="services__modal-info">
+                                            Termasuk file vector 
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon' ></i>
+                                        <p class="services__modal-info">
+                                            Harga relatif terjangkau
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon' ></i>
+                                        <p class="services__modal-info">
+                                            Konsep bebas, disarankan ada contoh
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== WORK ===============-->
+            <section class="work section" id="work">
+                <span class="section__subtitle">Portofolio Saya</span>
+                <h2 class="section__title">Karya Terbaru</h2>
+
+                <div class="work__filters">
+                    <span class="work__item active-work" data-filter='all'>All</span>
+                    <span class="work__item" data-filter='.video'>Video</span>
+                    <span class="work__item" data-filter='.photo'>Foto</span>
+                    <span class="work__item" data-filter='.design'>Desain</span>
+                </div>
+
+                <div class="work__container container grid">
+                    <div class="work__card mix design">
+                        <img src="assets/img/badak-basketball-logo.jpg" alt="" class="work__img">
+
+                        <h3 class="work__title">Badak Basketball Logo</h3>
+
+                        <a href="https://drive.google.com/file/d/1ruXaVlS5nW1LKf3kJORX78URULtAg9ll/view?usp=sharing" class="work__button">
+                            Preview <i class='bx bx-right-arrow-alt' ></i>
+                        </a>
+                    </div>
+
+                    <div class="work__card mix video">
+                        <img src="assets/img/bcc-2024-news.jpg" alt="" class="work__img">
+
+                        <h3 class="work__title">BCC 2024 News</h3>
+
+                        <a href="https://drive.google.com/file/d/1OmZAuW7kk8dNQ1xU9K4kNxXyghPtAT8Y/view?usp=sharing" class="work__button">
+                            Preview <i class='bx bx-right-arrow-alt' ></i>
+                        </a>
+                    </div>
+
+                    <div class="work__card mix design">
+                        <img src="assets/img/fastco-verenigen-tshirt.jpg" alt="" class="work__img">
+
+                        <h3 class="work__title">Fastco Verenigen T-shirt</h3>
+
+                        <a href="https://drive.google.com/file/d/1pgnD6huP4v-Y84-9U4SGp3Za2fW2bZw_/view?usp=sharing" class="work__button">
+                            Preview <i class='bx bx-right-arrow-alt' ></i>
+                        </a>
+                    </div>
+
+                    <div class="work__card mix photo">
+                        <img src="assets/img/fotografi-hari-tani.jpg" alt="" class="work__img">
+
+                        <h3 class="work__title">National Farmers' Day Photograph</h3>
+
+                        <a href="https://drive.google.com/file/d/1uTtQJ66GJNUa6HmOruv_hA4eUm9uTstJ/view?usp=sharing" class="work__button">
+                            Preview <i class='bx bx-right-arrow-alt' ></i>
+                        </a>
+                    </div>
+
+                    <div class="work__card mix design">
+                        <img src="assets/img/grove-drink-label.png" alt="" class="work__img">
+
+                        <h3 class="work__title">Grove Drink Label</h3>
+
+                        <a href="https://drive.google.com/file/d/1sryfs9HLJL-mvtfxLcZDeufqoVGTDq0D/view?usp=sharing" class="work__button">
+                            Preview <i class='bx bx-right-arrow-alt' ></i>
+                        </a>
+                    </div>
+
+                    <div class="work__card mix design">
+                        <img src="assets/img/mbpkt-basketball-jersey.jpg" alt="" class="work__img">
+
+                        <h3 class="work__title">MBPKT Baseball Jersey</h3>
+
+                        <a href="https://drive.google.com/file/d/1J9JvJBE6ASMhs0cvFFT5RNweTaevZKOW/view?usp=sharing" class="work__button">
+                            Preview <i class='bx bx-right-arrow-alt' ></i>
+                        </a>
+                    </div>
+
+                    <div class="work__card mix video">
+                        <img src="assets/img/mimpi-retak-short-movie.jpg" alt="" class="work__img">
+
+                        <h3 class="work__title">Mimpi Retak Short Movie</h3>
+
+                        <a href="https://drive.google.com/file/d/1gpi1S1VhHpsr1aV8JcFGM9o-_OdrioDD/view?usp=sharing" class="work__button">
+                            Preview <i class='bx bx-right-arrow-alt' ></i>
+                        </a>
+                    </div>
+
+                    <div class="work__card mix design">
+                        <img src="assets/img/smakenza-basketball-jersey.jpg" alt="" class="work__img">
+
+                        <h3 class="work__title">Smakenza Basketball Jersey</h3>
+
+                        <a href="https://drive.google.com/file/d/1CuH3EBQqc-fHwOypsZzDn420gE-YfQ0v/view?usp=sharing" class="work__button">
+                            Preview <i class='bx bx-right-arrow-alt' ></i>
+                        </a>
+                    </div>
+
+                    <div class="work__card mix design">
+                        <img src="assets/img/spansa-basketball-jersey.jpg" alt="" class="work__img">
+
+                        <h3 class="work__title">Spansa Basketball Jersey</h3>
+
+                        <a href="https://drive.google.com/file/d/1QE8R895TYZezKoFo1eyVeLrzokW8wYLQ/view?usp=sharing" class="work__button">
+                            Preview <i class='bx bx-right-arrow-alt' ></i>
+                        </a>
+                    </div>
+
+                    <div class="work__card mix design">
+                        <img src="assets/img/spansa-basketball-logo.png" alt="" class="work__img">
+
+                        <h3 class="work__title">Spansa Basketball Logo</h3>
+
+                        <a href="https://drive.google.com/file/d/1FWQsARuRupGYaACzFprlpqiVvtH6-ygQ/view?usp=sharing" class="work__button">
+                            Preview <i class='bx bx-right-arrow-alt' ></i>
+                        </a>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--=============== TESTIMONIALS ===============-->
+            <section class="testimonial section">
+                <span class="section__subtitle">Kata Klien Saya</span>
+                <h2 class="section__title">Testimonial</h2>
+
+                <div class="testimonial__container container swiper">
+                    <div class="swiper-wrapper">
+                        <div class="testimonial__card swiper-slide">
+                            <img src="assets/img/fardi-marlianto.jpg" alt="" class="testimonial__img">
+
+                            <h3 class="testimonial__name">Fardi Marlianto, ST</h3>
+                            <p class="testimonial__description">
+                                Konsep desain dari poin ke poin bisa diterapkan dengan baik sesuai permintaan 
+                                baik dari warna, font dan gambar, arti dan makna desain
+                            </p>
+                        </div>
+                        
+                        <div class="testimonial__card swiper-slide">
+                            <img src="assets/img/m-adrian-lesangi-h.jpeg" alt="" class="testimonial__img">
+                            
+                            <h3 class="testimonial__name">M. Adrian Lesangi H.</h3>
+                            <p class="testimonial__description">
+                                Editan video film pendek nya keren abiez. Perpindahan antar adegannya halus banget, 
+                                jadi nggak bikin bingung. Potongan-potongannya juga rapi.
+                            </p>
+                        </div>
+
+                        <div class="testimonial__card swiper-slide">
+                            <img src="assets/img/haniif-dadyo-adji.jpeg" alt="" class="testimonial__img">
+                            
+                            <h3 class="testimonial__name">Haniif Dadyo Adji</h3>
+                            <p class="testimonial__description">
+                                Menurutku hasilnya baguslah, cocok dengan tema yang di ikuti dan untuk
+                                coloringnya pas bagus. Worth it sih buat colorgrading disini
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <!--=============== CONTACT ===============-->
+            <section class="contact section" id="contact">
+                <span class="section__subtitle">Ingin Order?</span>
+                <h2 class="section__title">Hubungi Saya</h2>
+
+                <div class="contact__container container grid">
+                    <div class="contact__content">
+                        <h3 class="contact__title">Bicara dengan saya</h3>
+
+                        <div class="contact__info">
+                            <div class="contact__card">
+                                <i class='bx bx-mail-send contact__card-icon' ></i>
+                                <h3 class="contact__card-title">Email</h3>
+                                <span class="contact__card-data">adithya.landon@gmail.com</span>
+
+                                <a href="mailto:adithya.landon@gmail.com" target="_blank" class="contact__button">
+                                    Tulis disini <i class='bx bxs-right-arrow-alt contact__button-icon' ></i>
+                                </a>
+                            </div>
+
+                            <div class="contact__card">
+                                <i class='bx bxl-whatsapp contact__card-icon' ></i>
+                                <h3 class="contact__card-title">Whatsapp</h3>
+                                <span class="contact__card-data">+62 821-5406-4174</span>
+
+                                <a href="https://api.whatsapp.com/send?phone=6282154064174&text=Halo, saya ingin mengorder jasa" target="_blank" class="contact__button">
+                                    Tulis disini <i class='bx bxs-right-arrow-alt contact__button-icon'></i>
+                                </a>
+                            </div>
+
+                            <div class="contact__card">
+                                <i class='bx bxl-instagram contact__card-icon' ></i>
+                                <h3 class="contact__card-title">Instagram</h3>
+                                <span class="contact__card-data">@merify</span>
+
+                                <a href="https://www.instagram.com/merify/" target="_blank" class="contact__button">
+                                    Tulis disini <i class='bx bxs-right-arrow-alt contact__button-icon' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <h3 class="contact__title">Tuliskan saya project anda</h3>
+
+                        <form action="" class="contact__form">
+                            <div class="contact__form-div">
+                                <label for="" class="contact__form-tag">Nama</label>
+                                <input type="text" placeholder="Masukkan nama anda" class="contact__form-input">
+                            </div>
+
+                            <div class="contact__form-div">
+                                <label for="" class="contact__form-tag">Mail</label>
+                                <input type="text" placeholder="Masukkan email anda" class="contact__form-input">
+                            </div>
+
+                            <div class="contact__form-div contact__form-area">
+                                <label for="" class="contact__form-tag">Project</label>
+                                <textarea name="" id="" cols="30" rows="10" placeholder="Tuliskan project anda" class="contact__form-input"></textarea>
+                            </div>
+
+                            <button class="button">Kirim Pesan</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer">
+            <div class="footer__container container">
+                <h1 class="footer__title">Landon</h1>
+
+                <ul class="footer__list">
+                    <li>
+                        <a href="#about" class="footer__link">Tentang</a>
+                    </li>
+                    <li>
+                        <a href="#work" class="footer__link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#testimonial" class="footer__link">Testimonial</a>
+                    </li>
+                </ul>
+
+                <ul class="footer__social">
+                    <a href="https://api.whatsapp.com/send?phone=6282154064174&text=Halo, saya ingin mengorder jasa" class="footer__social-link">
+                        <i class="bx bxl-whatsapp"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/merify/" class="footer__social-link">
+                        <i class="bx bxl-instagram"></i>
+                    </a>
+
+                    <a href="#" class="footer__social-link">
+                        <i class="bx bxl-youtube"></i>
+                    </a>
+                </ul>
+
+                <span class="footer__copy">
+                    &#169; Landon. All rights reserved 
+                </span>
+            </div>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MIXITUP FILTER ===============-->
+        <script src="assets/js/mixitup.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
